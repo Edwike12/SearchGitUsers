@@ -26,4 +26,9 @@ export class ProfileService {
     .pipe(
       map((res:Response)=> { return this.getProfileRepos()}));
   }
+
+  updateProfile(username:string){
+    this.username;username;
+  }
+
 }
